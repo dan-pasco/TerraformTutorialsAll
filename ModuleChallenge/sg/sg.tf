@@ -49,7 +49,7 @@ resource "aws_security_group" "ec2_sg" {
 
   }
 }
-
+# THIS MODULE WILL OUTPUT A NAME
 output "sg_name" {
 
   value = aws_security_group.ec2_sg.name
